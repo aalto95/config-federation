@@ -1,6 +1,6 @@
 {
   "name": "config-federation",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "description": "Once separate and standalone, configs decided to form a union that will last for years to come. Glory to the Config Federation!",
   "main": "./lib/index.js",
@@ -45,10 +45,10 @@
     "globals": "^16.0.0",
     "prettier": "^3.5.3",
     "prettier-plugin-organize-imports": "^4.1.0",
-    "typescript-eslint": "^8.26.0",
     "stylelint": "^16.15.0",
     "stylelint-config-html": "^1.1.0",
     "stylelint-config-property-sort-order-smacss": "^10.0.0",
-    "stylelint-config-recommended-scss": "^14.1.0"
+    "stylelint-config-recommended-scss": "^14.1.0",
+    "typescript-eslint": "^8.26.0"
   }
 }
