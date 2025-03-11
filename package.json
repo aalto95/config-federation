@@ -1,5 +1,5 @@
 {
-  "name": "config-federation",
+  "name": "@config-federation/vue",
   "version": "0.0.11",
   "type": "module",
   "description": "Once separate and standalone, configs decided to form a union that will last for years to come. Glory to the Config Federation!",
