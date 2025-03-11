@@ -1,13 +1,20 @@
 {
   "name": "@config-federation/vue",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "type": "module",
   "description": "Once separate and standalone, configs decided to form a union that will last for years to come. Glory to the Config Federation!",
   "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "exports": {
     ".": {
-      "import": "./lib/index.js",
-      "require": "./lib/index.js"
+      "import": {
+        "types": "./lib/index.d.ts",
+        "default": "./lib/index.js"
+      },
+      "require": {
+        "types": "./lib/index.d.ts",
+        "default": "./lib/index.js"
+      }
     }
   },
   "scripts": {
