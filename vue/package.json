@@ -1,6 +1,6 @@
 {
   "name": "@config-federation/vue",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "type": "module",
   "description": "Once separate and standalone, configs decided to form a union that will last for years to come. Glory to the Config Federation!",
   "main": "./lib/index.js",
@@ -35,7 +35,7 @@
   "bugs": {
     "url": "https://github.com/aalto95/config-federation/issues"
   },
-  "homepage": "https://github.com/aalto95/config-federation#readme",
+  "homepage": "https://github.com/aalto95/config-federation/vue/#readme",
   "dependencies": {
     "@eslint/js": "^9.22.0",
     "@stylistic/eslint-plugin": "^4.2.0",
