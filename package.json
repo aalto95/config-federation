@@ -1,0 +1,16 @@
+{
+  "name": "config-federation",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Once separate and standalone, configs decided to form a union that will last for years to come. Glory to the Config Federation!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalto95/config-federation.git"
+  },
+  "author": "aalto95",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aalto95/config-federation/issues"
+  },
+  "homepage": "https://github.com/aalto95/config-federation#readme"
+}
