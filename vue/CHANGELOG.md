@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.2] - 12-03-2025
+
+### Added
+
+- Export of config interfaces
+
+### Changed
+
+- `vitest` and `@vitest/coverage-v8` packages versions strictly set to 3.0.8
+
 ## [0.1.1] - 12-03-2025
 
 ### Updated
