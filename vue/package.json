@@ -1,6 +1,6 @@
 {
   "name": "@config-federation/vue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "description": "Once separate and standalone, configs decided to form a union that will last for years to come. Glory to the Config Federation!",
   "main": "./lib/index.js",
@@ -46,7 +46,7 @@
   "dependencies": {
     "@eslint/js": "^9.22.0",
     "@stylistic/eslint-plugin": "^4.2.0",
-    "@vitest/coverage-v8": "^3.0.8",
+    "@vitest/coverage-v8": "3.0.8",
     "eslint": "^9.22.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-vue": "^10.0.0",
@@ -62,6 +62,6 @@
     "vitest-sonar-reporter": "^2.0.0"
   },
   "peerDependencies": {
-    "vitest": "^3.0.8"
+    "vitest": "3.0.8"
   }
 }
