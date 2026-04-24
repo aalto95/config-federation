@@ -1,6 +1,6 @@
 {
 	"name": "@config-federation/vue",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"type": "module",
 	"description": "Once separate and standalone, configs decided to form a union that will last for years to come. Glory to the Config Federation!",
 	"main": "./lib/index.js",
@@ -57,16 +57,16 @@
 		"globals": "^17.5.0",
 		"happy-dom": "^20.9.0",
 		"prettier": "^3.8.3",
-		"prettier-plugin-organize-imports": "^4.3.0",
-		"stylelint": "^17.9.0",
+		"typescript-eslint": "^8.59.0",
+		"stylelint": "^17.9.0"
+	},
+	"peerDependencies": {
 		"stylelint-config-html": "^1.1.0",
 		"stylelint-config-property-sort-order-smacss": "^11.2.0",
 		"stylelint-config-recommended-scss": "^17.0.1",
-		"typescript-eslint": "^8.59.0",
-		"vitest-sonar-reporter": "^3.0.0"
-	},
-	"peerDependencies": {
 		"@vitest/coverage-v8": "^4.1.5",
-		"vitest": "^4.1.5"
+		"vitest": "^4.1.5",
+		"vitest-sonar-reporter": "^3.0.0",
+		"prettier-plugin-organize-imports": "^4.3.0"
 	}
 }
