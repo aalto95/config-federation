@@ -1,0 +1,17 @@
+.app {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  color: #1f2937;
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+}
+
+.app__title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
