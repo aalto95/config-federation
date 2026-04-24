@@ -2,6 +2,8 @@
 
 Monorepo with reusable frontend configuration packages.
 
+This project provides opinionated Prettier, Stylelint, ESLint, and Vitest setups, designed to be extended when needed.
+
 ## Packages
 
 - [`@config-federation/vue`](./packages/vue) - shared ESLint, Stylelint, Prettier, and Vitest configs for Vue 3 projects.
