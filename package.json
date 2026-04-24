@@ -7,7 +7,8 @@
 	"description": "Once separate and standalone, configs decided to form a union that will last for years to come. Glory to the Config Federation!",
 	"scripts": {
     "test": "pnpm -r test",
-    "publish:vue": "pnpm --filter @config-federation/vue publish --access public"
+    "publish:vue": "pnpm --filter @config-federation/vue publish --access public",
+    "publish:react": "pnpm --filter @config-federation/react publish --access public"
 	},
 	"repository": {
 		"type": "git",
