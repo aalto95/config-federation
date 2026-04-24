@@ -18,8 +18,13 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests defined for @config-federation/vue\""
   },
+  "files": [
+    "lib",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aalto95/config-federation.git"
@@ -42,11 +47,11 @@
   "bugs": {
     "url": "https://github.com/aalto95/config-federation/issues"
   },
-  "homepage": "https://github.com/aalto95/config-federation/vue/#readme",
+  "homepage": "https://github.com/aalto95/config-federation/packages/vue/#readme",
   "dependencies": {
     "@eslint/js": "^9.22.0",
     "@stylistic/eslint-plugin": "^4.2.0",
-    "@vitest/coverage-v8": "3.0.8",
+    "@vitest/coverage-v8": "3.0.0",
     "eslint": "^9.22.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-vue": "^10.0.0",
@@ -62,6 +67,6 @@
     "vitest-sonar-reporter": "^2.0.0"
   },
   "peerDependencies": {
-    "vitest": "3.0.8"
+    "vitest": "3.0.0"
   }
 }

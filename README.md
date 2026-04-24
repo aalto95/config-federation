@@ -10,4 +10,4 @@ This library will handle all the common dependencies and rules. At the same time
 
 ## Installation and usage
 
-- [Vue 3 Documentation](https://github.com/aalto95/config-federation/tree/main/vue#readme)
+- [Vue 3 Documentation](https://github.com/aalto95/config-federation/tree/main/packages/vue#readme)

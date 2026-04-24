@@ -5,10 +5,14 @@ import eslintPluginVue from "eslint-plugin-vue";
 import globals from "globals";
 import ts from "typescript-eslint";
 
+const SOURCE_FILES = ["**/*.{js,mjs,cjs,ts,vue}"];
+
 /** @type {import('eslint').Linter.Config[]} */
 const eslintConfig = [
-  { files: ["**/*.{js,mjs,cjs,ts,vue}"] },
-  { languageOptions: { globals: globals.browser } },
+  {
+    files: SOURCE_FILES,
+    languageOptions: { globals: globals.browser },
+  },
   js.configs.recommended,
   ...ts.configs.recommended,
   ...eslintPluginVue.configs["flat/essential"],
@@ -23,7 +27,7 @@ const eslintConfig = [
         parser: "@typescript-eslint/parser",
       },
     },
-    files: ["**/*.{js,mjs,cjs,ts,vue}"],
+    files: SOURCE_FILES,
     rules: {
       curly: "error",
       "@stylistic/indent": ["error", 2],
