@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.3] - 24-04-2026
+
+### Changed
+
+- Added some dependencies to `peerDependencies` due to runtime errors.
+
 ## [1.0.2] - 24-04-2026
 
 ### Changed
