@@ -1,13 +1,30 @@
 # Config Federation
 
-## Concept
+Monorepo with reusable frontend configuration packages.
 
-United repository of all essential configs for your frontend projects.
+## Packages
 
-## Forget about dependency hell
+- [`@config-federation/vue`](./packages/vue) - shared ESLint, Stylelint, Prettier, and Vitest configs for Vue 3 projects.
 
-This library will handle all the common dependencies and rules. At the same time it will let you modify all the configs for your specific needs.
+## Workspace Setup
 
-## Installation and usage
+This repository uses a pnpm workspace:
 
-- [Vue 3 Documentation](https://github.com/aalto95/config-federation/tree/main/packages/vue#readme)
+- package manager: `pnpm@10.0.0`
+- workspace packages: `packages/*`
+
+Install dependencies from the repository root:
+
+```sh
+pnpm install
+```
+
+Run all workspace tests:
+
+```sh
+pnpm -r test
+```
+
+## Package Documentation
+
+- [Vue package README](./packages/vue/README.md)
