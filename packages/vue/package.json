@@ -1,6 +1,6 @@
 {
 	"name": "@config-federation/vue",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"type": "module",
 	"description": "Once separate and standalone, configs decided to form a union that will last for years to come. Glory to the Config Federation!",
 	"main": "./lib/index.js",
