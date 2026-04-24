@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.2] - 24-04-2026
+
+### Changed
+
+- Added `deepMerge` custom-rules typings for better config override autocomplete and safety.
+
 ## [1.0.1] - 24-04-2026
 
 ### Changed
