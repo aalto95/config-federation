@@ -8,6 +8,7 @@ This project provides opinionated Prettier, Stylelint, ESLint, and Vitest setups
 
 - [`@config-federation/vue`](./packages/vue) - shared ESLint, Stylelint, Prettier, and Vitest configs for Vue 3 projects.
 - [`@config-federation/react`](./packages/react) - shared ESLint, Stylelint, Prettier, and Vitest configs for React projects.
+- [`vue-sample-app`](./packages/vue-sample-app) - sample Vue app for validating all Vue config presets.
 
 ## Workspace Setup
 
@@ -32,3 +33,4 @@ pnpm -r test
 
 - [Vue package README](./packages/vue/README.md)
 - [React package README](./packages/react/README.md)
+- [Vue sample app README](./packages/vue-sample-app/README.md)

@@ -9,31 +9,35 @@ const SOURCE_FILES = ["**/*.{js,mjs,cjs,ts,vue}"];
 
 /** @type {import('eslint').Linter.Config[]} */
 const eslintConfig = [
+	// 1. Global ignores (optional: add things not in .gitignore)
 	{
-		files: SOURCE_FILES,
-		languageOptions: { globals: globals.browser },
+		ignores: ["dist/**", "node_modules/**", "public/**"],
 	},
+	// 2. Base Config
 	js.configs.recommended,
 	...ts.configs.recommended,
 	...eslintPluginVue.configs["flat/essential"],
-	eslintConfigPrettier,
+	// 3. Your Custom Settings
 	{
+		files: SOURCE_FILES,
+		languageOptions: {
+			globals: globals.browser,
+			ecmaVersion: 2020,
+			parserOptions: {
+				parser: ts.parser, // Use the imported ts object
+				extraFileExtensions: [".vue"],
+			},
+		},
 		plugins: {
 			"@stylistic": stylistic,
 		},
-		languageOptions: {
-			ecmaVersion: 2020,
-			parserOptions: {
-				parser: "@typescript-eslint/parser",
-			},
-		},
-		files: SOURCE_FILES,
 		rules: {
 			curly: "error",
 			"@stylistic/indent": ["error", 2],
 			"@stylistic/brace-style": "error",
 		},
 	},
+	eslintConfigPrettier,
 ];
 
 export default eslintConfig;
