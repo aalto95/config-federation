@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.0.1] - 24-04-2026
+
+### Changed
+
+- Fixed type definitions and exports.
+
+## [1.0.0] - 24-04-2026
+
+### Changed
+
+- Migrated package to pnpm monorepo structure under `packages/vue`
+- Updated README with opinionated config positioning
+- Improved exported typings (`vitest` type import and declaration cleanup)
+- Updated Vitest dependency strategy for v4 compatibility
+
 ## [0.1.2] - 12-03-2025
 
 ### Added

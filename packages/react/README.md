@@ -16,7 +16,8 @@ npm i -D @config-federation/react
 
 ## Usage
 
-Create config files and import configs from a library.
+Create your config files and import the base presets from the package.
+Use `deepMerge` to apply project-specific custom rules.
 
 ```js
 // eslint.config.js
@@ -34,11 +35,11 @@ export default [
 
 import { deepMerge, stylelintConfig } from "@config-federation/react";
 
-const customs = {
+const customRules = {
   // extend here
 };
 
-export default deepMerge(stylelintConfig, customs);
+export default deepMerge(stylelintConfig, customRules);
 ```
 
 ```js
@@ -46,11 +47,11 @@ export default deepMerge(stylelintConfig, customs);
 
 import { deepMerge, prettierConfig } from "@config-federation/react";
 
-const customs = {
+const customRules = {
   // extend here
 };
 
-export default deepMerge(prettierConfig, customs);
+export default deepMerge(prettierConfig, customRules);
 ```
 
 ```js
@@ -63,7 +64,7 @@ import viteConfig from "./vite.config";
 export default mergeConfig(
   viteConfig,
   deepMerge(vitestConfig, {
-    // extend here
+    // custom test options here
   })
 );
 ```
