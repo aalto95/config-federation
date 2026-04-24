@@ -5,6 +5,7 @@ Monorepo with reusable frontend configuration packages.
 ## Packages
 
 - [`@config-federation/vue`](./packages/vue) - shared ESLint, Stylelint, Prettier, and Vitest configs for Vue 3 projects.
+- [`@config-federation/react`](./packages/react) - shared ESLint, Stylelint, Prettier, and Vitest configs for React projects.
 
 ## Workspace Setup
 
@@ -28,3 +29,4 @@ pnpm -r test
 ## Package Documentation
 
 - [Vue package README](./packages/vue/README.md)
+- [React package README](./packages/react/README.md)
